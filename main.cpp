@@ -9,7 +9,7 @@ int main() {
        }else {
            cout << a << endl;
            cout << b << endl;
-           for (int i = 2; i < numero; i++) {
+           for (int i = 3; i <= numero; i++) {
                c= a+b;
                a=b;
                b=c;
