@@ -2,14 +2,14 @@
 using namespace std;
 
 int main() {
-   int n, a=1,b=1, c;
-       cin >> n;
-       if (n<2) {
+   int numero, a=1,b=1, c;
+       cin >> numero;
+       if (numero<2) {
            cout << "errore" << endl;
        }else {
            cout << a << endl;
            cout << b << endl;
-           for (int i = 2; i < n; i++) {
+           for (int i = 2; i < numero; i++) {
                c= a+b;
                a=b;
                b=c;
