@@ -12,12 +12,12 @@ int main() {
    else {
            cout << a << endl;
            cout << b << endl;
-      int i=0;     
-      for (i=3; i <= n; i++) {
+          
+      for (int i=2; i < n; i++) {
                c= a+b;
-         cout << c <<endl;
                a=b;
                b=c;
+         cout << c <<endl;
            }
        }
    return 0;
